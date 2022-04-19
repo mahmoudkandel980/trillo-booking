@@ -10,9 +10,9 @@
     justify-content: center;
 
     @media (max-width: $bp-small) {
-        flex: 0 0 100%;
+        flex: 0 0 70%;
         order: 1;
-        margin-bottom: 1.2rem;
+        margin: 0 auto 1.2rem auto;
     }
 
     &__input {
@@ -272,7 +272,7 @@
             letter-spacing: 0;
             padding: 0.8rem 0.4rem 0.8rem 1.2rem;
             font-weight: 200;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
     }
 
